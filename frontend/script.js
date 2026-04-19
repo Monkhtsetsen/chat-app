@@ -12,7 +12,7 @@ const socket = new WebSocket("ws://localhost:8000/ws");
 let currentUser = "";
 let joined = false;
 let renderedIds = new Set();
-
+//
 socket.onopen = () => {
   statusText.textContent = "Сервертэй холбогдлоо ";
 };
